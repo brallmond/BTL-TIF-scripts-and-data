@@ -1,3 +1,8 @@
+# clumsily cobbled together by Braden Allmond
+# to use, set your filenames in the variable "infiles" then
+# python3 read_TIF_data.py
+# a nice plot with three lines should be made
+
 import csv
 import matplotlib.pyplot as plt
 import numpy as np
