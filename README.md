@@ -52,6 +52,7 @@ when the data you are viewing corresponds to the period of time you expect, righ
 check the box "Fill empty cells with previous values"
 
 in the prompt, type the location on your eos space, should be something like this
+
 `\\cernbox-smb\eos\user\b\ballmond\filename.csv`
 
 <img width="632" alt="help image 5" src="https://github.com/brallmond/BTL-TIF-scripts-and-data/assets/32043198/40442028-a561-461d-982f-c0863c645155">
