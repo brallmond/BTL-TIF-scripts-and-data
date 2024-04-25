@@ -1,3 +1,17 @@
+# How to add to this Repo
+First, make a fork of this repo.
+
+Then, set up your local download of the repo to point to your fork.
+`git remote add my-fork https://github.dummylink.fork`
+
+Now, add and commit your changes.
+`git add file_name.py && git commit -m "my changes!"`
+
+And push to your fork
+`git push my-fork`
+
+Finally, PR to this repo using github online (and I'll accept it immediately because c'mon we all know each other).
+
 # BTL-TIF-scripts-and-data
 
 This is a repo to keep scripts (and important related data) for BTL-TIF-operations together and somewhat organized.
