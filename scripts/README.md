@@ -1,6 +1,6 @@
 # TIF TEC performance testing data analysis
 
-`tif_data_analysis.py` has all the code to run data analyses on the data collected at the TIF. Please read the documentation for each function! Especially important when running the analysis on annealing cycles because they haven't been studied too much. 
+`TEC_data_analysis_script.py` has all the code to run data analyses on the data collected at the TIF. Please read the documentation for each function! Especially important when running the analysis on annealing cycles because they haven't been studied too much. 
 
 Also, most functions have commented blocks of code which plot out the results. Please plot the plots regularly - and at each step the first few times you are analysing a dataset - so that you can quickly manually verify if the algorithm is working as expected. Sometimes if the tests aren't smooth (or there are multiple things happening, like trips in the power supplies or adding/removing insulation - manual things that you know about but the algorithm can be confused by) you can have unexpected errors. 
 
