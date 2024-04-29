@@ -131,6 +131,7 @@ ELOG_MODULES = {'28Jun_Elog.csv' : 6, '20Jul_Elog.csv' : 4, '25Jul_Elog.csv' : 4
 # TODO: Further improvement to the code - potentially making all the temperatures 'Data' objects so it's
 # easier to store information about them and the functions require fewer arguments - but the current implementation is not
 # particularly inefficient either
+"""
 class Data:
 	def __init__(self, filename, header):
 		self.filename = filename
@@ -160,7 +161,7 @@ class Data:
 
 	def step_mean_temps(self, fall_threshold, rise_threshold, cooling_bool):
 		return find_step_avg_temp2(self.df, self.header, fall_threshold, rise_threshold, cooling_bool)[0]
-
+"""
 
 # NOTE: Do a search for 'heating cycle' when you are processing data of an annealing cycle that took place after a cooling cycle
 	# There are some blocks of code that need to be uncommented in some relevant functions if it is a heating cycle 
